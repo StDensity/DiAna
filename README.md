@@ -3,6 +3,12 @@
 ## Overview
 DiAna (Dialog Analyzer) is a comprehensive tool for analyzing conversations from YouTube videos. The project uses advanced speech recognition, speaker diarization, and sentiment analysis to provide detailed insights into dialogues.
 
+## Team Members
+[Mind Digger](https://github.com/Minddigger07)
+George Joyal Vincent
+Gouri S Govind
+[St.Destiny](https://github.com/StDensity)
+
 ## Summarization Model
 We developed a fine-tuned version of the DialogLED model, [StDestiny/DialogLED-base-16384-dialogsum-finetuned-10epochs](https://huggingface.co/StDestiny/DialogLED-base-16384-dialogsum-finetuned-10epochs), to deliver concise conversation summaries. Built on the Longformer-Encoder-Decoder (LED) framework, it leverages the base model ([MingZhong/DialogLED-base-16384](https://huggingface.co/MingZhong/DialogLED-base-16384)) with a 16,384-token input capacity from pre-training—perfect for tackling long dialogues. We fine-tuned this powerhouse on the DialogSum dataset for 10 epochs, sharpening its skills for our summarization needs.
 
